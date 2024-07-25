@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+gunicorn = "*"
+gevent-websocket = "*"
+eventlet = "*"
+flask = "*"
+flask-socketio = "*"
+aioflask = "*"
+spacy = "*"
+datamatrix = "*"
+prettytable = "*"
+flask-caching = "*"
+python-dotenv = "*"
+deepl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
